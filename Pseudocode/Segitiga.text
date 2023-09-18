@@ -1,0 +1,27 @@
+Algoritma: hitung_LuasdanKeliling_Segitiga
+
+Deklarasi:
+alas, tinggi, luas, keliling: double
+a, b, c : int
+
+Deskripsi:
+input alas,tinggi,luas
+input a, b, c, keliling
+
+print "Masukkan alas: "
+baca alas;
+print "Masukkan tinggi: "
+baca tinggi;
+
+luas = alas*tinggi/2
+print "Luas = " +luas
+
+print "Masukkan a: "
+baca a;
+print "Masukkan b: "
+baca b;
+print "Masukkan c: "
+baca c;
+
+keliling = a+b+c
+print "Keliling: " +keliling

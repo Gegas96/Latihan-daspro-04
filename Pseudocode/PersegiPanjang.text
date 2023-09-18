@@ -1,0 +1,17 @@
+Algoritma: hitung_LuasdanKeliling_PersegiPanjang
+
+Deklarasi:
+panjang, lebar, luas, keliling: int
+
+Deskripsi:
+input panjang, lebar, luas
+
+print "Masukkan panjang: "
+baca panjang;
+print "Masukkan lebar: "
+baca lebar;
+
+luas = panjang*lebar
+print "Luas = "
+keliling = 2*(panjang+lebar)
+print "Keliling = " 

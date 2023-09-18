@@ -1,0 +1,15 @@
+Algoritma: hitung_LuasdanKeliling_Lingkaran
+
+Deklarasi:
+phi, jari2, luas, keliling: double
+
+Deskripsi:
+input jari2, luas, phi: 3.14
+
+print "Masukkan jari-jari: "
+baca jari2;
+
+luas = phi*jari2*jari2
+print "Luas = " +luas
+keliling = 2*phi*jari2
+print "Keliling = " +keliling
